@@ -1,0 +1,21 @@
+ input[type="text"]{
+     background-color: lightblue;
+     color: black;
+ }
+ input[type="text"]:focus{
+     background-color: gray;
+     color: white;
+     transition: all 0.5s;
+
+ }
+
+ input[type="submit"]{
+     background-color:lightcoral;
+     color: gray;
+
+ }
+ input[type=submit]:hover{
+     background-color: limegreen;
+     color: black;
+     padding: 12px;
+ }

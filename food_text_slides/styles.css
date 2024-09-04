@@ -1,0 +1,44 @@
+ body{
+     background-color:lightslategrey;
+ }
+
+.container{
+     width: 450px;
+     height: 300px;
+     box-shadow: 10PX 0 10px black;
+     border-radius: 10px;
+     margin: 100px auto;
+     position: relative;
+     overflow: hidden;
+ }
+ .container img{
+     width: inherit;
+     height: inherit;
+     border-radius: 0 10px 10px  0;
+     transform: translateX(50%);
+     transition: all 0.5s ;
+ }
+
+  .container:hover img{
+      transform: translateX(0%);
+  }
+  .container .content{
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: whitesmoke;
+      background:linear-gradient(45deg,blueviolet,deeppink) ;
+      width: 50%;
+      height: 100%;
+      font-family: Arial,sans-serif;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 10px 0 0 10px;
+      font-size: 15px;
+      transform: translateX(0%);
+      transition: all 0.5s;
+  }
+ .container:hover .content{
+     transform: translateX(-100%);
+     transition: all 0.5s ;
+ }

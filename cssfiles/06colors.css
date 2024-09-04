@@ -1,0 +1,18 @@
+ body{
+     background-image:url("../imges/Joe Movie Images Hd (6).jpeg");
+ }
+
+
+
+div{
+     font-family: Calibri,sans-serif;
+     text-align: center;
+     margin: 150px auto;
+     color: white;
+     width: 800px;
+     padding: 30px;
+     box-shadow: 0 0 10px black;
+     background-color: rgba(12,56,67,0.5) ;
+
+
+ }

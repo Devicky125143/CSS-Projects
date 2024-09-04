@@ -1,0 +1,50 @@
+
+ div{
+     margin: 30px;
+ }
+h1{
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    display: inline;
+
+}
+span{
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 15px;
+    font-family: Calibri, sans-serif;
+    display: block;
+}
+
+.hidden{
+    background-color:maroon;
+    color: whitesmoke;
+    padding: 20px;
+    font-family: Calibri, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    left: 550px;
+    display: none;
+
+}
+ .parent{
+     background-color:lightgray;
+     padding: 10px;
+     width: 1000px;
+ }
+
+ .child{
+     background-color: lightgreen;
+     padding: 10px;
+     width: 200px;
+     box-shadow: 0 0 10px black;
+     font-family: Calibri, sans-serif;
+     text-align: center;
+     font-size: 15px;
+     display:inline-block;
+     border: 10px solid lightslategrey;
+ }

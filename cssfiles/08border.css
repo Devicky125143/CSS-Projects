@@ -1,0 +1,49 @@
+
+ body{
+     margin-bottom: 500px;
+ }
+
+
+div{
+    background-color: lightgreen;
+    width: 500px;
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+}
+    #borderall{
+        border: 10px solid saddlebrown;
+    }
+
+    #border-sides{
+        border-left: 35px solid darkmagenta ;
+        border-right: 35px solid darkmagenta ;
+        border-top: 25px solid darkolivegreen ;
+        border-bottom: 25px solid darkolivegreen ;
+    }
+
+    #radius{
+        border: 10px solid darkgoldenrod;
+         border-radius: 50% 0 50% 0;
+    }
+
+    #circle{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 25px solid darkcyan;
+    }
+
+    section{
+        width: 400px;
+        height: 400px;
+        box-shadow: 0 0 10px black;
+
+    }
+
+    #frame{
+        border-right: 50px solid lightslategrey;
+        border-left: 50px solid lightslategrey;
+        border-top: 25px solid darkolivegreen;
+        border-bottom: 25px solid darkolivegreen;
+    }

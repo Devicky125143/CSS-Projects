@@ -1,0 +1,185 @@
+
+
+.all{
+    margin: auto;
+}
+ body{
+     margin: -250px;
+     background-color: dimgray;
+ }
+
+    .main_content{
+
+        border: 15px solid saddlebrown;
+        width: 300px;
+        height: 540px;
+        margin: -25px auto;
+        box-shadow: 0 10px 10px black;
+        overflow: hidden;
+        position: relative;
+    }
+     .main_content img{
+         width: inherit;
+         height: inherit;
+         transition: all 0.5s;
+     }
+     .main_content:hover img{
+         transform: scale(1.2,1.2);
+     }
+
+     .content-leftDoor{
+         background-image: url("img/Leftdoor1.jpg" );
+         position: absolute;
+         top: 0;
+         left:0;
+         width: 50%;
+         height: 100%;
+         transform: perspective(400px) rotateY(0deg);
+         transform-origin: left;
+         transition: all 0.8s;
+     }
+
+     .main_content:hover .content-leftDoor{
+         transform: perspective(400px) rotateY(90deg);
+     }
+
+     .content-RightDoor{
+         background-image: url("img/Rightdoor1.jpg");
+         position: absolute;
+         top:0;
+         right:0;
+         width:50%;
+         height: 100%;
+         transform: perspective(400px) rotateY(0deg);
+         transform-origin:right;
+         transition: all 0.8s;
+
+
+     }
+      .main_content:hover .content-RightDoor{
+         transform: perspective(400px) rotateY(-90deg);
+     }
+
+      .curtain{
+          background-color: rgba(0,0,0,0);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          transform: translateY(-100%);
+          transition: all 0.9s;
+          color:yellow;
+          text-align: center;
+          font-family: "Comic Sans MS", cursive;
+          display:flex;
+          justify-content:end;
+          align-items: end;
+      }
+      .main_content:hover .curtain{
+          transform: translateY(0%);
+
+      }
+.frame{
+   border-radius: 20px;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top:500px;
+    left:1400px ;
+    box-shadow: 0 0  10px black;
+    overflow: hidden;
+
+
+}
+ .frame img {
+     width: inherit;
+     height: inherit;
+     border-radius: 20px;
+     filter: grayscale(100%);
+     transition: all 0.3s;
+ }
+ .frame:hover img{
+  transform: scale(1.2,1.2);
+     filter: grayscale(0%);
+ }
+ .frame1{
+     border-radius: 20px;
+     width: 500px;
+     height: 450px;
+     position: relative;
+     top: 955px;
+     left: 300px;
+     box-shadow: 0 0  10px black;
+     overflow: hidden;
+ }
+ .frame1 img{
+     width: inherit;
+     height: inherit;
+     border-radius: 20px;
+     filter: grayscale(100%);
+     transition: all 0.3s;
+ }
+ .frame1:hover img {
+     transform: scale(1.2, 1.2);
+     filter: grayscale(0%);
+     transition: all 0.3s;
+ }
+  .frame1:hover.content{
+      transform: perspective(450px) rotateY(0deg);
+      transition: all 0.5s;
+      border-radius: 10px;
+  }
+ .frame1 .content{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 50%;
+     height: 100%;
+     color:white;
+     font-family: Calibri, sans-serif;
+     background-color: rgba(0 ,0 ,0, 0.5);
+     padding: 10px;
+     box-sizing: border-box;
+     transform: perspective(450px) rotateY(90deg);
+     transform-origin: left;
+     transition: all 0.3s;
+
+ }
+ .frame1:hover .content{
+     transform: perspective(450px) rotateY(0deg);
+     transition: all 0.3s;
+     border-radius: 10px;
+ }
+ .frame .content1{
+     position: absolute;
+     top:0;
+     right: 0;
+     width: 50%;
+     height: 100%;
+     color: white;
+     font-family: Calibri, sans-serif;
+     background-color: rgba(0,0,0,0.5);
+     padding: 10px;
+     box-sizing: border-box;
+     transform: perspective(450px) rotateY(-90deg);
+     transform-origin: right;
+     transition: all 0.3s;
+ }
+ .frame:hover .content1{
+     transform: perspective(450px) rotateY(0deg);
+     transition: all 0.5s;
+     border-radius: 10px;
+ }
+ .head{
+     font-family: "Comic Sans MS",sans-serif;
+     color: yellow;
+     text-align: center;
+     font-size: 30px;
+     border-radius: 20px;
+     width: 1665px;
+     height: 150px;
+     position: relative;
+     top:850px;
+     left:250px;
+ }

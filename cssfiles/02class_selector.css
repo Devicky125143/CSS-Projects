@@ -1,0 +1,16 @@
+
+
+.Cinemas{
+    background-color: aquamarine;
+    padding: 10px;
+    color: white;
+    width: 300px;
+}
+#heading{
+    background-color: lightslategray;
+    color: black;
+    padding: 10px;
+    box-shadow: 0 0 10px lightblue;
+    text-align-last: center;
+    width: 350px;
+}

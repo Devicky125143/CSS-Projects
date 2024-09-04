@@ -1,0 +1,26 @@
+   body{
+       background-color: teal;
+       margin: 60px;
+   }
+
+    .content{
+        width: 900px;
+        height: 600px;
+        margin: 10px auto;
+        border-radius: 30px;
+        box-shadow: 0 20px 30px black;
+        overflow: hidden;
+    }
+    .content img{
+        width: inherit;
+        height: inherit;
+        border-radius: 30px;
+        transition: all 0.3s;
+        filter: grayscale(100%);
+
+    }
+    .content:hover img{
+        transform: scale(1.1,1.1);
+        filter: grayscale(0%);
+
+    }
